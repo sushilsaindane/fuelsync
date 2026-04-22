@@ -1,16 +1,34 @@
-# React + Vite
+# FuelSync 🏍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FuelSync** is a high-performance mobile application built with React, Vite, and Capacitor. It was designed to solve a real-world problem: providing critical trip and fuel data for vehicles with broken instrumentation.
 
-Currently, two official plugins are available:
+## 📖 The Story
+The idea for FuelSync started when a friend's motorcycle speedometer and fuel sensor stopped working. Suddenly, they had no way of knowing their speed, how far they had traveled, or—most importantly—when they were about to run out of gas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I developed this app as a "digital dashboard" fix. By leveraging GPS data and custom fuel-burn algorithms, FuelSync provides real-time range estimation and historical tracking, ensuring that a mechanical failure doesn't lead to being stranded on the side of the road.
 
-## React Compiler
+## ✨ Key Features
+- **GPS Dashboard:** Real-time speed and trip distance tracking using Mapbox GL.
+- **Predictive Refill Logic:** Calculates expected refill dates based on current fuel levels and average consumption.
+- **Fuel History:** A comprehensive log of past refills to monitor vehicle efficiency over time.
+- **Smart Notifications:** Automated alerts when fuel levels drop below a safe threshold, built using Capacitor Local Notifications.
+- **Cloud Sync:** Firebase integration for secure data persistence across devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Lucide Icons
+- **Build Tool:** Vite
+- **Mobile Bridge:** Ionic Capacitor (Android)
+- **Mapping:** Mapbox GL JS
+- **Backend/DB:** Firebase Firestore & Authentication
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v18 or higher)
+- Android Studio (for mobile deployment)
+
+### Installation
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/sushilsaindane/fuelsync.git](https://github.com/sushilsaindane/fuelsync.git)
+   cd fuelsync
