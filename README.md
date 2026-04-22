@@ -39,12 +39,12 @@ I developed this app as a temporary but robust fix. By leveraging GPS data and c
    Create a .env file in the root directory and add your credentials:
    VITE_MAPBOX_TOKEN=your_mapbox_token
    VITE_FIREBASE_API_KEY=your_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=fuelsync-92ccb.firebaseapp.com
-   VITE_FIREBASE_PROJECT_ID=fuelsync-92ccb
-   VITE_FIREBASE_STORAGE_BUCKET=fuelsync-92ccb.firebasestorage.app
-   VITE_FIREBASE_MESSAGING_SENDER_ID=844346014660
-   VITE_FIREBASE_APP_ID=1:844346014660:web:b886aa7b7bda7df18f0291
-   VITE_FIREBASE_MEASUREMENT_ID=G-ELZDEWLT9L
+   VITE_FIREBASE_AUTH_DOMAIN=
+   VITE_FIREBASE_PROJECT_ID=
+   VITE_FIREBASE_STORAGE_BUCKET=
+   VITE_FIREBASE_MESSAGING_SENDER_ID=
+   VITE_FIREBASE_APP_ID=
+   VITE_FIREBASE_MEASUREMENT_ID=
 
 4. Run Web Version:
    npm run dev
