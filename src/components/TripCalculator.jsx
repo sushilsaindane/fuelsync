@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Paste your Mapbox Default Public Token here
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiYXhieWN6IiwiYSI6ImNtbzllejBqcDA4Z2UycXB3c3RnaTlmYnAifQ.xtI-kIhJ6DEl35eZ3nRdMQ';
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 export default function TripCalculator() {
   const [origin, setOrigin] = useState('');
